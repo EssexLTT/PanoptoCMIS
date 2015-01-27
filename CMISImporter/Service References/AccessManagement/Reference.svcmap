@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c3bae49b-f599-4749-a053-aceb89782e1d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://panopto.essex.ac.uk/Panopto/PublicAPISSL/4.6/AccessManagement.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AccessManagement.wsdl" MetadataType="Wsdl" ID="7f02859a-d2b7-41ec-92e2-69164312036f" SourceId="1" SourceUrl="https://panopto.essex.ac.uk/Panopto/PublicAPISSL/4.6/AccessManagement.svc?wsdl" />
+    <MetadataFile FileName="AccessManagement.xsd" MetadataType="Schema" ID="23378839-74f3-44ad-8985-ad81f668abe7" SourceId="1" SourceUrl="https://panopto.essex.ac.uk/Panopto/PublicAPISSL/4.6/AccessManagement.svc?xsd=xsd2" />
+    <MetadataFile FileName="AccessManagement1.xsd" MetadataType="Schema" ID="6c0109e4-04f7-48da-a886-b85fb5b146c4" SourceId="1" SourceUrl="https://panopto.essex.ac.uk/Panopto/PublicAPISSL/4.6/AccessManagement.svc?xsd=xsd3" />
+    <MetadataFile FileName="AccessManagement2.xsd" MetadataType="Schema" ID="33b8398f-c9ca-4e61-b7df-0dba9eac068e" SourceId="1" SourceUrl="https://panopto.essex.ac.uk/Panopto/PublicAPISSL/4.6/AccessManagement.svc?xsd=xsd0" />
+    <MetadataFile FileName="AccessManagement3.xsd" MetadataType="Schema" ID="bba8c39d-cd06-4f0c-8245-ea48658dc627" SourceId="1" SourceUrl="https://panopto.essex.ac.uk/Panopto/PublicAPISSL/4.6/AccessManagement.svc?xsd=xsd1" />
+    <MetadataFile FileName="AccessManagement.disco" MetadataType="Disco" ID="6038de5e-d873-4592-a7c9-2b1251fd8d6b" SourceId="1" SourceUrl="https://panopto.essex.ac.uk/Panopto/PublicAPISSL/4.6/AccessManagement.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

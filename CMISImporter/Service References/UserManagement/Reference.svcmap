@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="35eaa6d1-0829-41f1-a42d-f08dc279a02b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://panopto.essex.ac.uk/Panopto/PublicAPISSL/4.6/UserManagement.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="UserManagement.xsd" MetadataType="Schema" ID="ba634a0c-5d44-4e51-b680-2e1f9a81f404" SourceId="1" SourceUrl="https://panopto.essex.ac.uk/Panopto/PublicAPISSL/4.6/UserManagement.svc?xsd=xsd2" />
+    <MetadataFile FileName="UserManagement1.xsd" MetadataType="Schema" ID="f82b4f06-0476-47d1-9c58-fdfea74b6e3d" SourceId="1" SourceUrl="https://panopto.essex.ac.uk/Panopto/PublicAPISSL/4.6/UserManagement.svc?xsd=xsd0" />
+    <MetadataFile FileName="UserManagement.disco" MetadataType="Disco" ID="f56a90fe-f97c-4933-a79d-b78141e70ee5" SourceId="1" SourceUrl="https://panopto.essex.ac.uk/Panopto/PublicAPISSL/4.6/UserManagement.svc?disco" />
+    <MetadataFile FileName="UserManagement2.xsd" MetadataType="Schema" ID="3e6fc9e0-1afb-438c-ac35-58e0a988074c" SourceId="1" SourceUrl="https://panopto.essex.ac.uk/Panopto/PublicAPISSL/4.6/UserManagement.svc?xsd=xsd3" />
+    <MetadataFile FileName="UserManagement.wsdl" MetadataType="Wsdl" ID="7e38c5e1-8e9a-4082-9710-5d2f94363d4a" SourceId="1" SourceUrl="https://panopto.essex.ac.uk/Panopto/PublicAPISSL/4.6/UserManagement.svc?wsdl" />
+    <MetadataFile FileName="UserManagement3.xsd" MetadataType="Schema" ID="d178cd0c-5de3-407f-8560-54c962c11c50" SourceId="1" SourceUrl="https://panopto.essex.ac.uk/Panopto/PublicAPISSL/4.6/UserManagement.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
