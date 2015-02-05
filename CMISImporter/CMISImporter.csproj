@@ -33,6 +33,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel" />
@@ -70,9 +71,13 @@
     <None Include="App.config" />
     <None Include="appsettings.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </None>
+    <None Include="CMIS_SQL\DummyData.csv" />
+    <None Include="CMIS_SQL\README.md" />
     <None Include="connectionstrings.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </None>
     <None Include="README.md" />
     <None Include="Service References\AccessManagement\AccessManagement.wsdl" />
@@ -262,6 +267,11 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CMIS_SQL\fn_GetTTAllLecturers.sql" />
+    <Content Include="CMIS_SQL\fn_GetTTAllModules.sql" />
+    <Content Include="CMIS_SQL\v_GetAllEventsByRoom.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
